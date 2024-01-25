@@ -1,6 +1,6 @@
 package test;
 // xとyの値を持ち、それらの値を設定し、合計値を計算するクラス
-public class OperationExcutor2 {
+public class Keisann2 {
 
 
     private int x;
@@ -22,12 +22,12 @@ public class OperationExcutor2 {
         return y;
     }
  
-    // 合計値を計算するメソッド
+    // 合計値を計算するメソッドo0i
     int calculateSum() {
         int total = 0;
         for (int i = x; i <= y; i++) {
             total += i;
-        }
+    }
         return total;
     }
 }

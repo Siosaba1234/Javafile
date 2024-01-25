@@ -4,7 +4,7 @@ public class Jikkou3 {
     
         public static void main(String[] args) {
             // インスタンスを作成
-            OperationExcutor2 en3 = new OperationExcutor2();
+            Keisann2 en3 = new Keisann2();
            
             // xとyの値を設定
             int xValue = 100;
