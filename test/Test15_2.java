@@ -1,5 +1,6 @@
 package test;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Test15_2 {
@@ -7,25 +8,22 @@ public class Test15_2 {
         Scanner scanner = new Scanner(System.in);
 
         try {
-            // 整数の入力を促す
+            // ユーザに整数を入力してもらう
             System.out.print("整数を入力 = ");
-            
-            // 整数かどうかを判定
-            if (scanner.hasNextInt()) {
-                int userInput = scanner.nextInt();
+            int inputNumber = scanner.nextInt();
 
-                // 偶数か奇数かを判定して表示
-                if (userInput % 2 == 0) {
-                    System.out.println(userInput + " は偶数");
-                } else {
-                    System.out.println(userInput + " は奇数");
-                }
+            // 入力が偶数か奇数かを判定して表示する
+            if (inputNumber % 2 == 0) {
+                System.out.println(inputNumber + " は偶数");
             } else {
-                // 整数でない場合のメッセージ
-                System.out.println("整数と認識できません！！");
+                System.out.println(inputNumber + " は奇数");
             }
+
+        } catch (InputMismatchException e) {
+            System.out.println("整数と認識できません！！");
         } finally {
             scanner.close();
         }
     }
 }
+
