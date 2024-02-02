@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Kouka2_5",
+            "request": "launch",
+            "mainClass": "test.Kouka2_5",
+            "projectName": "Java_83fdd49c"
+        },
+        {
+            "type": "java",
             "name": "Test14_5",
             "request": "launch",
             "mainClass": "test.Test14_5",

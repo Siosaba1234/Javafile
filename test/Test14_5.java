@@ -18,7 +18,7 @@ public class Test14_5 {
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append(content1).append(" ").append(content2);
 
-        // 結合された文字列を画面に表示
+        // 結合された文字列を画面に表示　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
         System.out.println("結合された文字列: " + stringBuilder.toString());
 
         // Scannerを閉じる
