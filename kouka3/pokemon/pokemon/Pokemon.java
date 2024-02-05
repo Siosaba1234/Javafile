@@ -4,13 +4,13 @@ public class Pokemon implements DetailDisplayable {
     private String name; //名前
     private String type; //タイプ
     private int level;   //レベル
-    private String Characteristic; //特性
+    private String characteristic; //特性
 //初期化する
-    public Pokemon(String name, String type, int level ,String Characteristic) {
+    public Pokemon(String name, String type, int level ,String characteristic) {
         this.name = name;
         this.type = type; 
         this.level = level;
-        this.Characteristic = Characteristic;
+        this.characteristic = characteristic;
     }
 //ポケモンの名前を得るゲッターメソッド
     public String getName() {
@@ -26,7 +26,7 @@ public class Pokemon implements DetailDisplayable {
     }
 //ポケモンの特性を得るゲッターメソッド
     public String getCharacteristic(){
-        return Characteristic;
+        return characteristic;
     }
 //オーバーライドで継承する
     @Override
@@ -34,7 +34,7 @@ public class Pokemon implements DetailDisplayable {
         System.out.println("名前: " + name);
         System.out.println("タイプ: " + type);
         System.out.println("レベル: " + level);
-        System.out.println("特性: " + Characteristic);
+        System.out.println("特性: " + characteristic);
 
     }
 }

@@ -4,8 +4,8 @@ package pokemon;
 public class EvolvablePokemon extends Pokemon {
     private String evolutionStage;
 // EvolvablePokemonに必要ななまえ、タイプ、出現レベル、特性、進化先を聞く
-    public EvolvablePokemon(String name, String type, int level,String Characteristic, String evolutionStage) {
-        super(name, type, level, Characteristic);
+    public EvolvablePokemon(String name, String type, int level,String characteristic, String evolutionStage) {
+        super(name, type, level, characteristic);
         this.evolutionStage = evolutionStage;
     }
 // オーバーライドで継承する

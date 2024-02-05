@@ -3,8 +3,8 @@ package pokemon;
 public class LegendPokemon extends Pokemon {
     private boolean isLegendary;
 // legendPokemonに必要ななまえ、タイプ、出現レベル、特性、伝説のポケモンかどうかを聞く
-    public LegendPokemon(String name, String type, int level, String Characteristic, boolean isLegendary) {
-        super(name, type, level, Characteristic);
+    public LegendPokemon(String name, String type, int level, String characteristic, boolean isLegendary) {
+        super(name, type, level,characteristic);
         this.isLegendary = isLegendary;
     }
 //継承する

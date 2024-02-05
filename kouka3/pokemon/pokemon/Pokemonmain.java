@@ -1,7 +1,7 @@
 package pokemon;
 import java.util.Scanner;
 
-public class Pokemonmain {
+public class PokemonMain {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
