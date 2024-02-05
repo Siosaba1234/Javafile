@@ -1,10 +1,10 @@
 package pokemon;
 //privateにポケモンの属性を格納する
 public class Pokemon implements DetailDisplayable {
-    private String name; //
-    private String type; //
-    private int level;   //
-    private String Characteristic; //
+    private String name; //名前
+    private String type; //タイプ
+    private int level;   //レベル
+    private String Characteristic; //特性
 //初期化する
     public Pokemon(String name, String type, int level ,String Characteristic) {
         this.name = name;

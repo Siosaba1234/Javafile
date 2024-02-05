@@ -1,16 +1,13 @@
 package pokemon;
 
-// ファイル: RegionalPokemon.java
-
-
 public class RegionPokemon extends Pokemon {
     private String region;
-
+// regionPokemonに必要ななまえ、タイプ、出現レベル、特性、生息地を聞く
     public RegionPokemon(String name, String type, int level,String Characteristic, String region) {
         super(name, type, level, Characteristic);
         this.region = region;
     }
-
+// オーバーライドで継承する
     @Override
     public void displayDetails() {
         super.displayDetails();
